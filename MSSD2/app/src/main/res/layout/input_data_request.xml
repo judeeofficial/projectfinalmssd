@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrequest">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/abc_search_url_text_selected">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="29sp"
+            android:text="ขอรับบริการ"
+            android:layout_span="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#af040d49">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ประเภทงาน"
+                android:id="@+id/textView5"
+                android:layout_column="0"
+                android:textColor="#f7ff00" />
+
+        </TableRow>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/work_type"
+                android:textColor="#f7ff00"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="เวลา"
+                    android:id="@+id/textView6"
+                    android:layout_column="0"
+                    android:textColor="#f7ff00" />
+            </TableRow>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/work_time" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="วันที่ดำเนินงาน"
+                    android:id="@+id/textView7"
+                    android:layout_column="0"
+                    android:textColor="#f7ff00" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date_time"
+                    android:textColor="#ffee00" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="คลิกเพื่อเลือกวันที่"
+                    android:id="@+id/opencalender"
+                    android:layout_column="25"
+                    android:background="#bfe7e019" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="เขต"
+                    android:id="@+id/textView8"
+                    android:layout_column="0"
+                    android:textColor="#f7ff00" />
+            </TableRow>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/district" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="รายละเอียดงาน"
+                    android:id="@+id/textView11"
+                    android:layout_column="0"
+                    android:textColor="#f7ff00" />
+            </TableRow>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/work_detail"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ค้นหาสถานที่รับบบริการ"
+                android:id="@+id/searchlocation"
+                android:background="#d9ffffff" />
+
+        </TableLayout>
+
+    </TableLayout>
+</TableLayout>

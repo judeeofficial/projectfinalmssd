@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrequest">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/car1" />
+
+    </TableRow>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        tools:context="project.mssd2.mssd.MapsActivity"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#84c1c11d">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ค้นหาสถานที่รับบริการ"
+                android:id="@+id/textView9"
+                android:textColor="#050644" />
+        </TableRow>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ค้นหาสถานที่"
+            android:id="@+id/btnsearch"
+            android:background="#bdff0000"
+            android:textColor="#ffffff" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#69f2ff00">
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="เลือกเขต"
+            android:id="@+id/textView15"
+            android:layout_column="0"
+            android:textColor="#05029e"
+            android:background="#3cffff00" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner android:id="@+id/districtspinner"
+            android:layout_column="0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#62f2ff00">
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ระยะทาง"
+            android:id="@+id/textView16"
+            android:layout_column="0"
+            android:textColor="#200808"
+            android:background="#79ffea00" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#85f2ff00">
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0"
+            android:id="@+id/colway"
+            android:layout_column="0"
+            android:textColor="#221c60" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="ส่งคำขอ"
+            android:id="@+id/btnsaverequest"
+            android:layout_column="0"
+            android:background="#6e4c0909"
+            android:textColor="#fff700" />
+    </TableRow>
+
+</TableLayout>

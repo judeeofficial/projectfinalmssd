@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:background="@drawable/bander"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ยินดีต้อนรับ คุณ "
+        android:id="@+id/welcome"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="username"
+        android:id="@+id/username"
+        android:layout_alignBottom="@+id/welcome"
+        android:layout_toEndOf="@+id/welcome"
+        android:layout_marginStart="97dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="แจ้งความประสงค์ขอรับบริการ"
+        android:id="@+id/activitymap"
+        android:background="#ffffff"
+        android:layout_marginTop="103dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ออกจากระบบ"
+        android:id="@+id/logout"
+        android:background="#ffffff"
+        android:layout_below="@+id/activitymap"
+        android:layout_marginTop="127dp"
+        android:layout_alignEnd="@+id/activitymap"
+        android:layout_alignStart="@+id/activitymap" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footer"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เบอร์โทรติดต่อแต่ละเขต"
+        android:id="@+id/contect"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/activitymap"
+        android:layout_alignEnd="@+id/activitymap"
+        android:background="#ffffff" />
+
+</RelativeLayout>

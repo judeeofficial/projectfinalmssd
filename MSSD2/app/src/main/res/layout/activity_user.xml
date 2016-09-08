@@ -1,0 +1,90 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bglogin1">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f2ffffff">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:text="บริการกำจัดสิ่งปฏิกูล"
+            android:layout_span="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000f4d" />
+
+    </TableRow>
+
+    <View
+        android:layout_height="1dip"
+        android:background="#CCCCCC" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:background="#beffff00">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input Username :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#990000" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input Password :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#990000" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#f6a6a6"
+            android:background="#4b0202" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#f6a6a6"
+            android:background="#7f3b3b"
+            android:clickable="false" />
+
+    </TableLayout >
+
+    <View
+        android:layout_height="1dip"
+        android:background="#CCCCCC" />
+
+</TableLayout>

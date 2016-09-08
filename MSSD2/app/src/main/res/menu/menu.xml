@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/dis1" android:title="เขตพระนคร"></item>
+    <item android:id="@+id/dis2" android:title="เขตดินแดง"></item>
+    <item android:id="@+id/dis3" android:title="เขตดุสิต"></item>
+    <item android:id="@+id/dis4" android:title="เขตบึงกุ่ม"></item>
+    <item android:id="@+id/dis5" android:title="เขตหนองจอก"></item>
+    <item android:id="@+id/dis6" android:title="เขตสาทร"></item>
+    <item android:id="@+id/dis7" android:title="เขตบางรัก"></item>
+    <item android:id="@+id/dis8" android:title="เขตบางซื้อ"></item>
+    <item android:id="@+id/dis9" android:title="เขตบางเขน"></item>
+    <item android:id="@+id/dis10" android:title="เขตจตุจักร"></item>
+    <item android:id="@+id/dis11" android:title="เขตบางกะปิ"></item>
+    <item android:id="@+id/dis12" android:title="เขตบางคอแหลม"></item>
+    <item android:id="@+id/dis13" android:title="เขตปทุมวัน"></item>
+    <item android:id="@+id/dis14" android:title="เขตประเวศ"></item>
+    <item android:id="@+id/dis15" android:title="เขตป้อมปราบศัตรูพ้าย"></item>
+    <item android:id="@+id/dis16" android:title="เขตคลองเตย"></item>
+    <item android:id="@+id/dis17" android:title="เขตพระโขนง"></item>
+    <item android:id="@+id/dis18" android:title="เขตสวนหลวง"></item>
+    <item android:id="@+id/dis19" android:title="เขตมีนบุรี"></item>
+    <item android:id="@+id/dis20" android:title="เขตจอมทอง"></item>
+    <item android:id="@+id/dis21" android:title="เขตลาดกระบัง"></item>
+    <item android:id="@+id/dis22" android:title="เขตดอนเมือง"></item>
+    <item android:id="@+id/dis23" android:title="เขตยานนาวา"></item>
+    <item android:id="@+id/dis24" android:title="เขตราชเทวี"></item>
+    <item android:id="@+id/dis25" android:title="เขตสัมพันธวงศ์"></item>
+    <item android:id="@+id/dis26" android:title="เขตลาดพร้าว"></item>
+    <item android:id="@+id/dis27" android:title="เขตพญาไท"></item>
+    <item android:id="@+id/dis28" android:title="เขตวัฒนา"></item>
+    <item android:id="@+id/dis29" android:title="เขตธนบุรี"></item>
+    <item android:id="@+id/dis30" android:title="เขตบางแค"></item>
+    <item android:id="@+id/dis31" android:title="เขตบางกอกใหญ่"></item>
+    <item android:id="@+id/dis32" android:title="เขตหลักสี่"></item>
+    <item android:id="@+id/dis33" android:title="เขตห้วยขวาง"></item>
+    <item android:id="@+id/dis34" android:title="เขตสายใหม่"></item>
+    <item android:id="@+id/dis35" android:title="เขตคลองสาน"></item>
+    <item android:id="@+id/dis36" android:title="เขตคันนายาว"></item>
+    <item android:id="@+id/dis37" android:title="เขตตลิ่งชัน"></item>
+    <item android:id="@+id/dis38" android:title="เขตสะพานสูง"></item>
+    <item android:id="@+id/dis39" android:title="เขตบางกอกน้อย"></item>
+    <item android:id="@+id/dis40" android:title="เขตวังทองหลาง"></item>
+    <item android:id="@+id/dis41" android:title="เขตบางขุนเทียน"></item>
+    <item android:id="@+id/dis42" android:title="เขตคลองสามวา"></item>
+    <item android:id="@+id/dis43" android:title="เขตภาษีเจริญ"></item>
+    <item android:id="@+id/dis44" android:title="เขตบางนา"></item>
+    <item android:id="@+id/dis45" android:title="เขตหนองแขม"></item>
+    <item android:id="@+id/dis46" android:title="เขตทวีวัฒนา"></item>
+    <item android:id="@+id/dis47" android:title="เขตราษฏร์บูรณะ"></item>
+    <item android:id="@+id/dis48" android:title="เขตทุ่งครุ"></item>
+    <item android:id="@+id/dis49" android:title="เขตบางพลัด"></item>
+    <item android:id="@+id/dis50" android:title="เขตบางบอน"></item>
+
+
+
+</menu>
